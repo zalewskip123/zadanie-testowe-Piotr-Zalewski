@@ -1,0 +1,51 @@
+.Section1 {
+    height: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5%;
+}
+
+.Section1 p {
+    padding-top: 5vh;
+    font-weight: bold;
+    font-size: 6vmin;
+    padding-bottom: 4vh;
+    font-family: "MavenPro";
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.carousel .slide {
+    height: 100%;
+}
+
+.carousel .slide img{
+    max-height: 100%;
+    width: auto;
+}
+
+.image {
+    margin: 0 auto;
+    max-height: 80%;
+    max-width: 80%;
+    cursor: pointer;
+}
+
+.imageR {
+    margin: 0 auto;
+    max-height: 60%;
+    max-width: 60%;
+    cursor: pointer;
+}
+
+#hr1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ce800b;
+}

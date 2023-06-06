@@ -1,0 +1,169 @@
+.Navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #FFBF60;
+}
+
+.Navbar.activeMenu {
+    padding-bottom: 90vh;
+}
+
+.Navbuttons {
+    float: right;
+    height: 10vh;
+    border: 0;
+    background-color: #FFBF60;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font-size: 2vmin;
+    font-weight: bold;
+    font-family: "MavenPro";
+}
+
+.Navbuttons img {
+    max-width: 65%;
+    max-height: 65%;
+}
+
+.Navbuttons:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.247);
+    cursor: pointer;
+}
+
+#navMobile {
+    display: none;
+}
+
+.Container {
+    max-width: 1050px;
+    width: 100%;
+}
+
+.Navbar2 {
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.NavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.Navbar2 .menu-items {
+    display: flex;
+}
+
+.Navbar2 .NavContainer li {
+    list-style: none;
+}
+
+.Navbar2 .NavContainer a {
+    text-decoration: none;
+    color: #976508;
+    font-size: 8vmin;
+    padding: 0.7rem;
+    font-family: "MavenPro";
+}
+
+.Navbar2 .NavContainer a:hover {
+    font-weight: bold;
+}
+
+.NavContainer {
+    display: block;
+    position: relative;
+    height: 60px;
+}
+
+.NavContainer .Checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 3vh;
+    left: 3vw;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.NavContainer .HamburgerLines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.NavContainer .HamburgerLines .Lines {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0e2431;
+}
+
+.NavContainer .HamburgerLines .Line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.NavContainer .HamburgerLines .Line2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.NavContainer .HamburgerLines .Line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.Navbar2 .MenuItems {
+    padding-top: 120px;
+    height: 70vh;
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+}
+
+.Navbar2 .MenuItems li {
+    margin-bottom: 1.2rem;
+    font-size: 6vmin;
+    font-weight: 100;
+}
+
+.NavContainer input[type="checkbox"]:checked~.MenuItems {
+    transform: translateX(0);
+}
+
+.NavContainer input[type="checkbox"]:checked~.HamburgerLines .Line1 {
+    transform: rotate(45deg);
+}
+
+.NavContainer input[type="checkbox"]:checked~.HamburgerLines .Line2 {
+    transform: scaleY(0);
+}
+
+.NavContainer input[type="checkbox"]:checked~.HamburgerLines .Line3 {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 900px) {
+    #navPC {
+        display: none;
+    }
+
+    #navMobile {
+        display: block;
+    }
+}

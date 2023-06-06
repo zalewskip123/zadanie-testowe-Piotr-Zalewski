@@ -1,0 +1,55 @@
+.LightBoxContainer {
+    width: auto;
+    height: 85vh;
+    background-color: #f7a52bb6;
+    padding-top: 15vh;
+    padding-left: 15vw;
+}
+
+#contentL {
+    width: 70vw;
+    height: 70vh;
+    background-color: white;
+}
+
+.ExitButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    height: 6vh;
+    border: 0;
+    background-color: #dd8d14;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font-size: 2vmin;
+    font-weight: bold;
+    font-family: "MavenPro";
+}
+
+.ExitButton:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.247);
+    cursor: pointer;
+}
+
+.imageL {
+    margin: 0 auto;
+    max-height: 95%;
+    max-width: 95%;
+}
+
+.imageRL {
+    margin: 0 auto;
+    max-height: 71%;
+    max-width: 71%;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+}
+
+.carousel .slide {
+    padding-top: 4vh;
+}

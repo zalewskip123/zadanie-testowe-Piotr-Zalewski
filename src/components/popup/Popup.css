@@ -1,5 +1,7 @@
 #Popup {
-    display: none;
+    visibility: hidden;
+    transition: transform 250ms, opacity 400ms;
+    transform: scale(0.1);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -9,7 +11,8 @@
 }
 
 #Popup.activePopup {
-    display: block;
+    visibility: visible;
+    transform: scale(1);
 }
 
 #Popup img {
@@ -18,7 +21,7 @@
     max-height: 90%;
     padding-top: 2%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;    
 }
 
 .ExitButtonP {

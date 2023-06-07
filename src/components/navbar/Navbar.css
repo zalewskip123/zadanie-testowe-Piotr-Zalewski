@@ -126,7 +126,7 @@
 }
 
 .Navbar2 .MenuItems {
-    padding-top: 120px;
+    padding-top: 15vh;
     height: 70vh;
     width: 100%;
     transform: translate(-150%);
@@ -165,5 +165,15 @@
 
     #navMobile {
         display: block;
+    }
+}
+
+@media (max-height: 500px) {
+    .Navbar, .Navbar2 {
+        height: 12vh;
+    }
+
+    .Navbar.activeMenu {
+        padding-bottom: 100vh;
     }
 }

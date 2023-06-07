@@ -34,7 +34,7 @@ function Section3() {
             <thead>
               <tr id="firstRow">
                 <th>nr lokalu</th>
-                <th>powierzchnia</th>
+                <th>metraż</th>
                 <th>działka</th>
                 <th>miejsca postojowe</th>
                 <th>dostępność</th>
@@ -114,8 +114,8 @@ function Section3() {
                 });
               }}>
                 <td><p>1A</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>364 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>364 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>sprzedany</p></td>
                 <td><p>09/21</p></td>
@@ -192,8 +192,8 @@ function Section3() {
                 });
               }}>
                 <td><p>1B</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>268 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>268 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>rezerwacja</p></td>
                 <td><p>09/21</p></td>
@@ -270,8 +270,8 @@ function Section3() {
                 });
               }}>
                 <td><p>2A</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>268 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>268 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>wolny</p></td>
                 <td><p>09/21</p></td>
@@ -348,8 +348,8 @@ function Section3() {
                 });
               }}>
                 <td><p>2B</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>268 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>268 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>wolny</p></td>
                 <td><p>09/21</p></td>
@@ -426,8 +426,8 @@ function Section3() {
                 });
               }}>
                 <td><p>3A</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>268 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>268 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>wolny</p></td>
                 <td><p>09/21</p></td>
@@ -504,8 +504,8 @@ function Section3() {
                 });
               }}>
                 <td><p>3B</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>268 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>268 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>wolny</p></td>
                 <td><p>09/21</p></td>
@@ -582,8 +582,8 @@ function Section3() {
                 });
               }}>
                 <td><p>4A</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>268 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>268 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>wolny</p></td>
                 <td><p>09/21</p></td>
@@ -660,8 +660,8 @@ function Section3() {
                 });
               }}>
                 <td><p>4B</p></td>
-                <td><p>152,1 m<sup>2</sup></p></td>
-                <td><p>268 m<sup>2</sup></p></td>
+                <td><p>152,1 m2</p></td>
+                <td><p>268 m2</p></td>
                 <td><p>3</p></td>
                 <td><p>sprzedany</p></td>
                 <td><p>09/21</p></td>

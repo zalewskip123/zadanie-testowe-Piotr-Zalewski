@@ -26,12 +26,12 @@
     top: 0;
     right: 0;
     float: right;
-    height: 6vh;
+    height: 10vh;
     border: 0;
     background-color: #d8d4cf;
-    padding-right: 1vw;
-    padding-left: 1vw;
-    font-size: 2vmin;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-size: 3vmin;
     font-weight: bold;
     font-family: "MavenPro";
 }
@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (min-height: 500px) and (max-width: 900px) {
     #Popup {
         height: 50%;
     }

@@ -17,12 +17,12 @@
     top: 0;
     right: 0;
     float: right;
-    height: 6vh;
+    height: 10vh;
     border: 0;
     background-color: #dd8d14;
-    padding-right: 1vw;
-    padding-left: 1vw;
-    font-size: 2vmin;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-size: 3vmin;
     font-weight: bold;
     font-family: "MavenPro";
 }
@@ -34,14 +34,14 @@
 
 .imageL {
     margin: 0 auto;
-    max-height: 95%;
-    max-width: 95%;
+    height: 70vh;
+    width: 70vw;
 }
 
 .imageRL {
     margin: 0 auto;
-    max-height: 71%;
-    max-width: 71%;
+    height: 70vh;
+    width: 70vw;
 }
 
 .carousel {
@@ -52,4 +52,20 @@
 
 .carousel .slide {
     padding-top: 4vh;
+}
+
+@media (max-height: 800px) and (max-width: 400px) {
+    .imageL {
+        margin: 0;
+        height: 30vh;
+        width: 30vw;
+        cursor: pointer;
+    }
+    
+    .imageRL {
+        height: 30vh;
+        width: 30vw;
+        cursor: pointer;
+        margin-left: 5vw;
+    }
 }
